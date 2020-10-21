@@ -2,9 +2,12 @@ import React, { Component, useState } from "react";
 import "../styles/App.css";
 
 class App extends Component {
-  state = {
-    paraText: ""
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      paraText: ""
+    };
+  }
   render() {
     return (
       <div id="main">
