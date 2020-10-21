@@ -3,7 +3,7 @@ import "../styles/App.css";
 
 class App extends Component {
   state = {
-    para: ""
+    paraText: ""
   };
   render() {
     return (
@@ -13,7 +13,7 @@ class App extends Component {
           id="click"
           onClick={() =>
             this.setState({
-              para: `Hello, I've learnt to use the full-stack evaluation tool. This makes
+              paraText: `Hello, I've learnt to use the full-stack evaluation tool. This makes
 		  me so happy`
             })
           }
