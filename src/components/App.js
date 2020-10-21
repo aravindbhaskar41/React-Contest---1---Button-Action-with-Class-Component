@@ -19,7 +19,9 @@ class App extends Component {
             Hello, I've learnt to use the full-stack evaluation tool. This makes
             me so happy
           </p>
-        ) : null}
+        ) : (
+          <p id="para"></p>
+        )}
       </div>
     );
   }
