@@ -23,7 +23,6 @@ class App extends Component {
         >
           Click me to render para
         </button>
-        )}
       </div>
     );
   }
