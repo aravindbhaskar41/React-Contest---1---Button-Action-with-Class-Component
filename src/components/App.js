@@ -7,7 +7,7 @@ class App extends Component {
   };
   render() {
     return (
-      <div className="App">
+      <div id="main">
         <button
           id="click"
           onClick={() => this.setState({ isButtonClicked: true })}
