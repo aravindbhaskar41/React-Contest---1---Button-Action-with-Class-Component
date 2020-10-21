@@ -5,7 +5,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      paraText: ""
+      text: ""
     };
   }
   render() {
@@ -16,14 +16,14 @@ class App extends Component {
           id="click"
           onClick={() =>
             this.setState({
-              paraText: `Hello, I've learnt to use the full-stack evaluation tool. This makes
+              text: `Hello, I've learnt to use the full-stack evaluation tool. This makes
     me so happy`
             })
           }
         >
           Click me to render para
         </button>
-        {this.state.paraText ? <p id="para">{this.state.paraText}</p> : null}
+        {this.state.text ? <p id="para">{this.state.text}</p> : null}
       </div>
     );
   }
