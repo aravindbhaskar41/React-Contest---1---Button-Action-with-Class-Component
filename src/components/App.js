@@ -2,10 +2,13 @@ import React, { Component, useState } from "react";
 import "../styles/App.css";
 
 class App extends Component {
-  state = {
-    isButtonClicked: false,
-    paraText: ""
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      isButtonClicked: false,
+      paraText: ""
+    };
+  }
   render() {
     return (
       <div id="main">
