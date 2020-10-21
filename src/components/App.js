@@ -16,8 +16,7 @@ class App extends Component {
           id="click"
           onClick={() =>
             this.setState({
-              text: `Hello, I've learnt to use the full-stack evaluation tool. This makes
-    me so happy`
+              text: `Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy`
             })
           }
         >
