@@ -21,7 +21,7 @@ class App extends Component {
             })
           }
         >
-          Click me to render para
+          click
         </button>
         {this.state.text ? <p id="para">{this.state.text}</p> : null}
       </div>
