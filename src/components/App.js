@@ -11,7 +11,6 @@ class App extends Component {
   render() {
     return (
       <div id="main">
-        <p id="para">{this.state.paraText}</p>
         <button
           id="click"
           onClick={() =>
@@ -23,6 +22,7 @@ class App extends Component {
         >
           Click me to render para
         </button>
+        <p id="para">{this.state.paraText}</p>
       </div>
     );
   }
