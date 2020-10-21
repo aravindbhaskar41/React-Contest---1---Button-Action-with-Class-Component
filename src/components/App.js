@@ -22,7 +22,7 @@ class App extends Component {
         >
           Click me to render para
         </button>
-        <p id="para">{this.state.paraText}</p>
+        {this.state.text ? <p id="para">{this.state.text}</p> : null}
       </div>
     );
   }
